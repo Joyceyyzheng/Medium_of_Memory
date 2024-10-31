@@ -66,6 +66,7 @@ const PhotoComponent = ({imagePath,degree}) => {
         src={imagePath}
         alt="placeholder"
         style={{ width: "100%", opacity }}
+        draggable="false"
       />
       <input
         type="range"
@@ -79,7 +80,7 @@ const PhotoComponent = ({imagePath,degree}) => {
       />
       <input
         type="range"
-        min="1"
+        min="0.1"
         max="4"
         step="0.01"
         value={scale}

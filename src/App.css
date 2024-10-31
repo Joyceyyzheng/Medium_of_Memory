@@ -9,12 +9,8 @@
   width: 100%;
   margin-top: 10px;
   max-width: 10rem;
-  /* -webkit-appearance: none; */
-  
-  outline: none;
-  
-  border-radius: 20%;;
-  background: #949494; /* Grey background */
+  min-width:5rem;
+  /*  */
   
 }
 
@@ -22,20 +18,23 @@
   width: 100%;
   margin-top: 10px;
   max-width: 10rem;
+  min-width:5rem;
 
 }
 
 /* Common slider styling */
 input[type="range"] {
   -webkit-appearance: none;
+ 
   width: 100%;
-  height: 12px;
+  height: 8px;
   border-radius: 5px;
 }
 
 /* Track styling */
 input[type="range"]::-webkit-slider-runnable-track {
   background: #949494;
+  /* padding-bottom: 4px; */
   height: 12px;
   border-radius: 5px;
 }
@@ -56,6 +55,12 @@ input[type="range"]::-webkit-slider-thumb {
 
 #second{
   z-index:2;
+}
+
+.text{
+  color: white;
+  font-size: 15rem;
+  margin-top: 10px;
 }
 
 
