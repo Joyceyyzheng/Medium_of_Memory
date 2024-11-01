@@ -2,23 +2,12 @@
 import './App.css';
 import PhotoComponent from './PhotoComponent';
 import {
-  createBrowserRouter,
-  RouterProvider,BrowserRouter, Routes, Route
+  createBrowserRouter,BrowserRouter, Routes, Route
 } from "react-router-dom";
 import Static from './Static';
-import myButton from './button.png';
+
 
 function App() {
-  const handleRedirect = () => {
-    window.location.href = "/static";
-  };
-
-  const router = createBrowserRouter([
-    {
-      path: "/static",
-      element: <div>Hello world!</div>,
-    },
-  ]);
 
   return (
     <BrowserRouter>

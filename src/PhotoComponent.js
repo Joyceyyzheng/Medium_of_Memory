@@ -1,7 +1,4 @@
 import React, { useState } from "react";
-// import Draggable from "react-draggable";
-import { DndContext, useDraggable } from "@dnd-kit/core";
-import { CSS } from "@dnd-kit/utilities";
 
 
 const PhotoComponent = ({imagePath,degree}) => {
@@ -11,7 +8,7 @@ const PhotoComponent = ({imagePath,degree}) => {
   const [offset, setOffset] = useState({ x: 0, y: 0 });
   const [opacity, setOpacity] = useState(1);
   const [scale, setScale] = useState(1);
-  const [angle, setAngle] = useState(degree);
+  const [angle] = useState(degree);
 
   const handleMouseDown = (e) => {
     setDragging(true);
