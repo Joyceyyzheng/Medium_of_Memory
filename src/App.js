@@ -2,7 +2,7 @@
 import './App.css';
 import PhotoComponent from './PhotoComponent';
 import {
-  createBrowserRouter,BrowserRouter, Routes, Route
+BrowserRouter, Routes, Route
 } from "react-router-dom";
 import Static from './Static';
 
