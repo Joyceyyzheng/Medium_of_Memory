@@ -64,7 +64,7 @@ const PhotoComponent = ({imagePath,degree}) => {
     >
       <img
         src={imagePath}
-        alt="placeholder"
+        alt="images"
         style={{ width: "100%", opacity }}
         draggable="false"
       />
