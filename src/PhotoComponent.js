@@ -76,6 +76,7 @@ const PhotoComponent = ({imagePath,degree}) => {
         value={opacity}
         className="opacity-slider"
         onChange={handleOpacityChange}
+        onMouseDown={(e) => e.stopPropagation()}
         style={{  transform: `rotate(${angle}deg)` }}
       />
       <input
@@ -84,8 +85,9 @@ const PhotoComponent = ({imagePath,degree}) => {
         max="4"
         step="0.01"
         value={scale}
-         className="scale-slider"
+        className="scale-slider"
         onChange={handleScaleChange}
+        onMouseDown={(e) => e.stopPropagation()}
         style={{ transform: `rotate(${angle}deg)` }}
       />
     </div>

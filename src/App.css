@@ -57,10 +57,73 @@ input[type="range"]::-webkit-slider-thumb {
   z-index:2;
 }
 
+#third{
+  z-index:3;
+}
+
+#fourth{
+  z-index:4;
+}
+
+
 .text{
   color: white;
   font-size: 15rem;
   margin-top: 10px;
 }
 
+.static-parent{
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+}
+
+.button{
+  position: absolute;
+  bottom: 1rem;
+  left:1rem;
+  border:#949494 0px solid;
+  background-color: rgb(0,0,0,0);
+  color: white;
+  font-size: 1rem;
+
+  background-image: url('button.png');
+  background-size: cover;
+  background-position: center;
+  width: 300px; /* Set the button size to match your image */
+  height: 75px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+/* static page   */
+#illustration1{
+  position: absolute;
+  top:2%;
+  left:2%;
+  width:50rem;
+  height: auto;
+}
+#illustration2{
+  position: absolute;
+  top:2%;
+  right:2%;
+  width:40rem;
+  height: auto;
+}
+#illustration3{
+  position: absolute;
+  bottom:2%;
+  left:2%;
+  width:45rem;
+  height: auto;
+}
+#illustration4{
+  position: absolute;
+  bottom:2%;
+  right:2%;
+  width:45rem;
+  height: auto;
+}
 
