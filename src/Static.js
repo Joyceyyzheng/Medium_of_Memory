@@ -8,22 +8,22 @@ function Static() {
         <div className="static-parent">
         {/* <h1 className="text">This is the Subpage</h1>; */}
         <img
-        src={"/illustration1.png"}
+        src={`${process.env.PUBLIC_URL}/illustration1.png`}
        id="illustration1"
         draggable="false"
       />
       <img
-        src={"/illustration2.png"}
+        src={`${process.env.PUBLIC_URL}/illustration2.png`}
        id="illustration2"
         draggable="false"
       />
         <img
-        src={"/illustration3.png"}
+        src={`${process.env.PUBLIC_URL}/illustration3.png`}
         id="illustration3"
         draggable="false"
         />
         <img
-        src={"/illustration4.png"}
+        src={`${process.env.PUBLIC_URL}/illustration4.png`}
         id="illustration4"
         draggable="false"
         />
